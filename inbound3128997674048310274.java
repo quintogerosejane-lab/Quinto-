@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Tanghian {
+public class Quinto {
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
@@ -43,7 +43,7 @@ public static void main(String[] args) {
             break;
 
             case 2: 
-            //create a regiter system 
+            //create a register system 
             System.out.println("YOU HAVE CHOOSEN REGISTER OPTION");
                 
     // if the account is full this will print
@@ -63,7 +63,7 @@ public static void main(String[] args) {
             System.out.println("Confirm Passoword: ");
             String confirmpass = scan.nextLine();
 
-            //mag himog ug another system para sa confim passoword
+            //mag himog ug another system para sa confirm password 
              while (!password2.equals(confirmpass)){ 
                 System.out.println("Passwords do not match, please try again.");
                 System.out.println("Enter your password: ");
@@ -73,7 +73,7 @@ public static void main(String[] args) {
         }
         System.out.println("SUCCESSFULLY REGISTERED!");
 
-        // dria nimo ibutang ang username ug passowrd na imong gihimo
+        // dria nimo ibutang ang username ug password na imong gihimo
         accounts[UserandPasscount][0] = userName2;
         accounts[UserandPasscount][1] = password2;
         UserandPasscount++;
@@ -87,4 +87,5 @@ public static void main(String[] args) {
 }
 
 }
+
 }
